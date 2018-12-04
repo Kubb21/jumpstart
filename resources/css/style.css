@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  text-align: left;
+  background-color: whitesmoke;
+  font-size: 1.1rem;
+  font-weight: bold;
+  height: 64px;
+  padding-left: 24px;
+}
+
+nav span {
+  padding: 10px;
+}
+
+.explore a {
+  font-size: 1.1rem;
+  color: #399bd1;
+}
+
+a {
+  font-size: 1.1rem;
+  color: grey;
+  text-decoration: none !important;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 64px;
+}
+
+header img {
+  display: flex;
+  float: right;
+  align-items: flex-end;
+  height: 20px;
+  padding-right: 24px;
+}
