@@ -149,3 +149,9 @@ justify-content: center;
   position: relative;
   bottom: 23px;
 }
+
+/* Projects */
+
+.row img {
+  width: 100%;
+}
