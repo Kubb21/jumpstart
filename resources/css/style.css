@@ -13,7 +13,7 @@ header {
   align-items: center;
 }
 
-nav {
+.navbar {
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -53,4 +53,99 @@ header img {
   align-items: flex-end;
   height: 20px;
   padding-right: 24px;
+}
+
+/* jumpin */
+
+.jumbotron {
+height: 70rem;
+}
+
+.jumbotron-bike {
+  background-image: url("../../images/jumbotron-bike.jpg");
+  height: 75rem;
+  position: relative;
+  bottom: 68px;
+}
+
+.jumbotron-bike {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.jumbotron-bike h1 {
+  padding-top: 11.8rem;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  color: white;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron-bike p {
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  justify-content: center;
+  width: 51.3rem;
+}
+
+.button {
+display: flex;
+justify-content: center;
+}
+
+.btn {
+  text-align: center;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  width: 11.4rem;
+  color: white;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Featured projects */
+.row h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.row h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.product {
+  color: #399bd1;
+}
+
+.row p {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.col-md-6 {
+  position: relative;
+  right: 15px;
+}
+
+.col-xs-6 {
+  position: relative;
+  bottom: 23px;
 }
