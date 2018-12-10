@@ -99,6 +99,18 @@ justify-content: center;
 }
 
 /* Featured projects */
+.image-container img {
+  transition: transform .5s;
+}
+
+.image-container img:hover {
+  transform: scale(1.3);
+}
+
+.image-container {
+overflow: hidden;
+}
+
 .row h2 {
   padding-top: 20px;
   padding-bottom: 20px;
