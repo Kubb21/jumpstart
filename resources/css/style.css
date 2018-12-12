@@ -272,13 +272,14 @@ overflow: hidden;
 
 /* Having trouble? */
 
-.final-container {
+.final {
   background-color: #f3f3f3;
   padding-top: 5.2rem;
   padding-bottom: 5.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .final-content h1 {
@@ -296,4 +297,9 @@ overflow: hidden;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.btn {
+  position: relative;
+  top: 30px;
 }
